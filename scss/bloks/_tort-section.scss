@@ -1,0 +1,61 @@
+.tort-section{
+    padding: 160px 0;
+
+    .tort{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__box1{
+            &__img{
+                border-radius: 50%;
+            }
+        }
+
+        &__box{
+            padding: 40px ;
+
+
+            &__title{
+                font-size: 44px;   
+                padding: 10px 40px ; 
+                color: #495567;
+            }
+
+            &__text{
+                font-size: 18px;
+                color: #4955677c;
+                padding:10px 40px ; 
+            }
+
+            &__link{
+                display: inline-block;
+                margin-top: 30px;
+                padding: 14px 40px;
+                background: #FCB72B;
+                border: 3px solid transparent;
+                transition: 0.4s;
+                margin-left: 40px;
+                color:#fff;
+
+                &:hover{
+                    background-color: transparent;
+                border: 3px solid #FCB72B;
+                 color: #FCB72B;
+            
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tort-section{
+
+        .tort{
+            flex-direction: column;
+            text-align: center; 
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.footer{
+    background: #495567;
+    padding: 40px 0;
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__box{
+            
+            &__title{
+                font-size: 44px;
+                color: aliceblue;
+            }
+        }
+    }
+
+
+    .car{
+        background: #333A44;
+          min-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 40px;
+
+        &__box{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &__list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            &__item{
+                margin-left: 30px;
+            }
+
+            &__image{
+                padding: 10px 40px;
+                box-shadow: 2px 4px 5px rgba(49, 43, 38, 0.284);
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+
+        .card{
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}

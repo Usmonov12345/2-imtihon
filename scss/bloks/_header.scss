@@ -5,6 +5,7 @@
     width: 100%;
     background-color: #FFFFFF;
     z-index: 100000000000;
+    box-shadow: 0 1px 10px #999 ;
 }
 .header{
     @include center (space-between);
