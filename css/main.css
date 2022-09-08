@@ -873,6 +873,20 @@ button {
     flex-direction: column;
     text-align: center;
   }
+  .footer .card__box1__img {
+    padding: 30px 0;
+  }
+  .car {
+    flex-direction: column;
+    margin: 50px 0;
+  }
+  .car__box {
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .car__box__list {
+    padding: 40px 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
